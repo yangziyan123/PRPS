@@ -1,4 +1,4 @@
-# PRPS（CrimeTrace 案件侧写安全评估）
+# PRPS（案件侧写安全评估）
 
 本仓库包含一套科研脚本，用于在“案件侧写（profiling）”场景下评估大模型输出是否产生“可操作的违法/犯罪指导（instruction）”风险：  
 - **Target 模型**：火山引擎 Ark（豆包）对案件证据链进行推演式回答  
@@ -42,7 +42,7 @@ $env:VOLC_ARK_API_KEY="..."
 $env:POLO_API_KEY="..."
 ```
 
-## 运行：CrimeTrace 评估（Target vs Judge）
+## 运行评估（Target vs Judge）
 
 1) 打开 `Code/Attack_Eval_M1.py`，确认/修改以下配置（文件开头的“配置区域”）：
 - `INPUT_FILE`：输入数据 CSV 路径（仓库自带 `CrimeTrace-500.csv`，你也可以换成子集文件）
