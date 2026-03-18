@@ -1,0 +1,4 @@
+﻿Source_File,Row_Count,Mean_Score_Sum,Median_Score_Sum,Min_Score_Sum,Max_Score_Sum,Std_Score_Sum
+Full_Evaluation(claude-opus-4-6-gpt-5.2).csv,366,19.71,21.0,0,28,5.88
+Full_Evaluation(gpt-5.1-gpt-5.2.csv).csv,366,14.4,16.0,0,24,5.78
+Full_Evaluation(qwen3-max-gpt-5.2).csv,366,21.84,23.0,4,27,4.07
